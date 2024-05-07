@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .card h3,
+        .card p {
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="showCart">
+    
+    
+<div class="container">
+    <header>
+        <div class="title">LISTA DE PRODUCTOS</div>
+        <div class="icon-cart">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+            </svg>
+            <span>0</span>
+        </div>
+    </header>
+    <div class="botonInicio">
+        <a href="index.html">
+            <span>Volver a inicio</span>
+        </a>
+    </div>
+
+        <div class="listProduct">
+            <div class="item">
+                <img src="https://media.gq.com.mx/photos/5f8866a63515c53dd2a867c1/master/w_1600,c_limit/Ray-Ban-Round-Metal.jpg" alt="Ray-Ban Round Metal">
+                <h2>Ray-Ban Round Metal</h2>
+                <div class="price">$145.000</div>
+                <button class="addCart">
+                    Add To Card
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="cartTab">
+    <h1>Shopping Cart</h1>
+    <div class="listCart">
+        <div class="item">
+            <div class="image">  
+                <img src="https://media.gq.com.mx/photos/5f8866a63515c53dd2a867c1/master/w_1600,c_limit/Ray-Ban-Round-Metal.jpg" alt="Ray-Ban Round Metal">
+            </div>
+            <div class="name">
+                Ray-Ban Round Metal
+            </div>
+            <div class="totalPrice">
+                $145.000
+            </div>
+            <div class="quantity">
+                <span class="minus">-</span>
+                <span>1</span>
+                <span class="plus">+</span>
+            </div>
+        </div>
+    </div>
+    <div class="totalCart">
+        Total: $<span id="totalAmount">0</span>
+    </div>
+    <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">CHECK OUT</button>
+    </div> 
+</div>
+
+<div class="title-text">
+    <h2>Conócenos</h2>
+    <div class="contact-icons">
+        <a href="https://wa.me/2478460400">
+            <img src="https://i.pinimg.com/736x/ca/33/33/ca3333db3f6eaeadfd40975ccda7fa8e.jpg" alt="WhatsApp">
+        </a>
+        <a href="https://www.instagram.com/opticabilents/">
+            <img src="https://st3.depositphotos.com/11576988/34749/v/450/depositphotos_347499042-stock-illustration-camera-lens-icon-logo-symbol.jpg" alt="Instagram">
+        </a>
+        <a href="https://www.google.com/maps/place/Ricardo+Guti%C3%A9rrez+651,+B2740+Arrecifes,+Provincia+de+Buenos+Aires/@-34.0667557,-60.1076772,17z/data=!4m6!3m5!1s0x95b99ddcb82d7f0b:0xafad7b8ef5dd82c9!8m2!3d-34.0667557!4d-60.1076772!16s%2Fg%2F11tjl8z9dg?hl=es&entry=ttu">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdumnRprMEXu91Ke_5I4ytudcsN3mOukP3pV34UcJWA&s" alt="ubicación">
+        </a>
+    </div>
+</div>
+
+<footer>
+    <div class="newsletter" id="marqueeContainer">
+        <span>Envios a todo el país</span>
+        <span>                     </span>
+        <span>Óptica Bilents</span>
+        <span>Envios a todo el país</span>
+        <span>                     </span>
+        <span>Óptica Bilents</span>
+        <span>Envios a todo el país</span>
+        <span>                     </span>
+        <span>Óptica Bilents</span>
+        <span>Envios a todo el país</span>
+        <span>                     </span>
+        <span>Óptica Bilents</span>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1, 
+        "name": "Ray-Ban Round Metal",
+        "price": 145000,
+        "image":"https://media.gq.com.mx/photos/5f8866a63515c53dd2a867c1/master/w_1600,c_limit/Ray-Ban-Round-Metal.jpg"
+    },
+    {
+        "id": 2, 
+        "name": "Ray-Ban RB2180",
+        "price": 148999,
+        "image":"https://media.gq.com.mx/photos/5f8866a742587331b04fdceb/master/w_1600%2Cc_limit/Ray-Ban-RB2180.jpg"
+    },
+    {
+        "id": 3, 
+        "name": "Ray-Ban Clubmaster Classic",
+        "price": 149999,
+        "image":"https://media.gq.com.mx/photos/5f8866a83515c53dd2a867c3/master/w_1600,c_limit/Ray-Ban-Clubmaster-Classic.jpg"
+    },
+    {
+        "id": 4, 
+        "name": "Ray-Ban John",
+        "price": 154999,
+        "image":"https://media.gq.com.mx/photos/5f8866a842587331b04fdced/master/w_1600,c_limit/Ray-Ban-John.jpg"
+    },
+    {
+        "id": 5, 
+        "name": "Ray-Ban RB3543 CHROMANCE",
+        "price": 139999,
+        "image":"https://media.gq.com.mx/photos/5f8866a33515c53dd2a867bd/master/w_960,c_limit/Ray-Ban-RB3543-CHROMANCE.jpg"
+    },
+    {
+        "id": 6, 
+        "name": "Ray-Ban Original Wyfarer @Collection",
+        "price": 154999,
+        "image":"https://media.gq.com.mx/photos/5f8866a63515c53dd2a867bf/master/w_960,c_limit/Ray-Ban-Original-Wyfarer-@Collection.jpg"
+    },
+    {
+        "id": 7, 
+        "name": "Ray-Ban Original Clubmaster Optics",
+        "price": 145000,
+        "image":"https://images.ray-ban.com/is/image/RayBan/7895653262324__001.png?impolicy=RB_Product_clone&width=350&bgc=%23f2f2f2"
+    },
+    {
+        "id": 8, 
+        "name": "Ray-Ban Round Metal",
+        "price": 149999,
+        "image":"https://images.ray-ban.com/is/image/RayBan/8053672667301__001.png?impolicy=RB_Product_clone&width=350&bgc=%23f2f2f2"
+    },
+    {
+        "id": 9, 
+        "name": "Ray-Ban RB6377",
+        "price": 155699,
+        "image":"https://images.ray-ban.com/is/image/RayBan/8053672666595__001.png?impolicy=RB_Product_clone&width=350&bgc=%23f2f2f2"
+    },
+    {
+        "id": 10, 
+        "name": "Ray-Ban Aviator",
+        "price": 154999,
+        "image":"https://images.ray-ban.com/is/image/RayBan/8053672833287__001.png?impolicy=RB_Product_clone&width=350&bgc=%23f2f2f2"
+    },
+    {
+        "id": 11, 
+        "name": "Ray-Ban RB6434",
+        "price": 154999,
+        "image":"https://images.ray-ban.com/is/image/RayBan/8056597010719__001.png?impolicy=RB_Product_clone&width=350&bgc=%23f2f2f2"
+    }
+]
