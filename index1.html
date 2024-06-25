@@ -16,12 +16,25 @@
         .card p {
             color: black;
         }
+
+        .checkout-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            font-size: 18px;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body class="showCart">
-    
-    
+
 <div class="container">
     <header>
         <div class="title">LISTA DE PRODUCTOS</div>
@@ -38,22 +51,23 @@
         </a>
     </div>
 
-        <div class="listProduct">
-            <div class="item">
-                <img src="https://media.gq.com.mx/photos/5f8866a63515c53dd2a867c1/master/w_1600,c_limit/Ray-Ban-Round-Metal.jpg" alt="Ray-Ban Round Metal">
-                <h2>Ray-Ban Round Metal</h2>
-                <div class="price">$145.000</div>
-                <button class="addCart">
-                    Add To Card
-                </button>
-            </div>
+    <div class="listProduct">
+        <div class="item">
+            <img src="https://media.gq.com.mx/photos/5f8866a63515c53dd2a867c1/master/w_1600,c_limit/Ray-Ban-Round-Metal.jpg" alt="Ray-Ban Round Metal">
+            <h2>Ray-Ban Round Metal</h2>
+            <div class="price">$145.000</div>
+            <button class="addCart">
+                Añadir al carrito
+            </button>
         </div>
     </div>
+</div>
+
 <div class="cartTab">
-    <h1>Shopping Cart</h1>
+    <h1>Carrito</h1>
     <div class="listCart">
         <div class="item">
-            <div class="image">  
+            <div class="image">
                 <img src="https://media.gq.com.mx/photos/5f8866a63515c53dd2a867c1/master/w_1600,c_limit/Ray-Ban-Round-Metal.jpg" alt="Ray-Ban Round Metal">
             </div>
             <div class="name">
@@ -73,9 +87,11 @@
         Total: $<span id="totalAmount">0</span>
     </div>
     <div class="btn">
-        <button class="close">CLOSE</button>
-        <button class="checkOut">CHECK OUT</button>
-    </div> 
+        <button class="close">Cerrar</button>
+        <button class="clearCart">Vaciar Carrito</button>
+        <button class="checkOut">Comprar</button>
+        
+    </div>
 </div>
 
 <div class="title-text">
@@ -113,5 +129,4 @@
 <script src="app.js"></script>
 </body>
 </html>
-
 

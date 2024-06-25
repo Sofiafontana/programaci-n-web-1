@@ -26,7 +26,7 @@ const addDataToHTML = () => {
                 <img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
                 <div class="price">$${product.price}</div>
-                <button class="addCart">Add To Cart</button>`;
+                <button class="addCart">Añadir al carrito</button>`;
             listProductHTML.appendChild(newProduct);
         });
     }
@@ -53,6 +53,7 @@ const addToCart = (product_id) => {
     addCartToHTML();
     addCartToMemory();
 };
+
 
 const addCartToMemory = () => {
     localStorage.setItem('cart', JSON.stringify(cart));
@@ -122,15 +123,45 @@ const changeQuantityCart = (product_id, type) => {
     }
 };
 
+const clearCartButton = document.querySelector('.clearCart');
+clearCartButton.addEventListener('click', () => {
+    cart = [];
+    localStorage.removeItem('cart');
+    addCartToHTML(); 
+});
+
+
+const checkoutButton = document.querySelector('.checkOut');
+checkoutButton.addEventListener('click', () => {
+    realizarCompra();
+});
+
+function realizarCompra() {
+    
+    let checkoutMessage = document.createElement('div');
+    checkoutMessage.classList.add('checkout-message');
+    checkoutMessage.innerHTML = `
+        <div>¡Compra realizada con éxito!</div>
+        <button class="close-message">Cerrar</button>
+    `;
+
+    document.body.appendChild(checkoutMessage);
+
+   
+    const closeButton = checkoutMessage.querySelector('.close-message');
+    closeButton.addEventListener('click', () => {
+        checkoutMessage.remove(); 
+    });
+}
+
 const initApp = () => {
-    // Fetch product data
+    
     fetch('products.json')
         .then(response => response.json())
         .then(data => {
             products = data;
             addDataToHTML();
 
-            // Get cart data from local storage
             if (localStorage.getItem('cart')) {
                 cart = JSON.parse(localStorage.getItem('cart'));
                 addCartToHTML();
