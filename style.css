@@ -285,10 +285,12 @@ body{
 .banner-text h1{
   font-size:130px;
   font-style: serif;
+  color: #000;
 }
 .banner-text p{
   font-size:20px;
   font-style: italic;
+  color: #000;
 }
 .banner-btn{
   margin: 70px auto 0;
